@@ -1,3 +1,11 @@
+
+
+Fork of PolyBench/C 4.2.1 (beta) with scripts to compile to WebAssembly (WASM) using Emscripten and WASI.
+
+Instructions:
+Run `./build.sh` to compile benchmarks to WASM. Before the compilation, WASI is downloaded and installed in the `/tmp` directory. Not all benchmarks are compiled, only a few are selected, but others can be added to the `build.sh` script.
+
+
 * * * * * * * * * * * * * * *
 * PolyBench/C 4.2.1 (beta)  *
 * * * * * * * * * * * * * * *
